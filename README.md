@@ -1,0 +1,2 @@
+# Mini Whatsaap Clone
+In this project I have use mongoose and practice CRUD operations using RESTFULL API's. I maked Website like Watsapp where you can send messages and also delete and update messges. It will also show date and time when you send messages.
