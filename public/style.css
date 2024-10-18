@@ -4,7 +4,7 @@
     padding: 20px;
     border-radius: 16px;
     display: inline-block;
-   
+    text-align: center;
 }
 .msg{
     background-color: dodgerblue;
@@ -26,4 +26,5 @@ button{
 }
 .all{
     margin-left: 1rem ;
+    text-align: center;
 }
