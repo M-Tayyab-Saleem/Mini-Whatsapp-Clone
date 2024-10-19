@@ -11,6 +11,8 @@ app.use(express.static(path.join(__dirname,"public")))
 app.use(express.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
 
+const dbUURL= "mongodb+srv://delta-student:Kn8LaDwF1BewF2Lv@cluster0.xg8bz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
 main().then(()=>{console.log('connection successful')})
 .catch(err => console.log(err));
 async function main() {
